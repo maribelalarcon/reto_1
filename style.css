@@ -1,0 +1,396 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+
+p{
+    font-size: 13px;
+    line-height: 18px;
+}
+
+h3{
+    font-size: 22px;
+    line-height: 1.5rem;
+}
+h4{
+    font-size: 17px;
+}
+
+header {
+    border-bottom: 1px solid #CCC;
+}
+.block h2{
+    font-size: 26px;
+  
+}
+
+.sub-nav {
+    padding: 5px 0;
+}
+
+.sub-nav li{
+    border-right: 1px solid #c2bdbd;
+    padding-right: 10px;
+}
+
+.sub-nav ul{
+    list-style: none;
+    padding: 0px 20px 20px 0px; 
+    display: flex;
+    justify-content: center;
+    gap:10px;
+    font-size: 12px;
+    color: #c2bdbd;
+}
+.container-nav .right {
+    display: flex;
+    align-items: flex-start;
+    gap: 10px;
+    justify-content: center;
+}
+
+.container {
+    display: flex;
+    flex-direction: column;
+    max-width: 1100px;
+    margin: 0 auto;
+    justify-content: center;
+}
+
+.container-nav{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: flex-start;
+    gap: 20px;
+    padding: 0px 8px;
+    flex: 1 1 auto;
+}
+
+.login-and-search {
+    display: flex;
+    align-items: center;
+}
+
+.lupa{
+    height: 20px;
+    border-left: 1px solid #CCC;
+    padding-left: 10px;
+    margin-left: 10px;
+}
+
+.papel-premium{
+    width: 87px;
+    margin-right: 10px;
+}
+.logo{
+    width: 240px;
+    align-self: center;
+}
+
+.icono-circulo{
+    width: 8px;
+}
+
+nav {
+    padding: 5px 0;
+    border-top: 1px solid #CCC;
+    border-bottom: 1px solid #CCC;
+}
+
+nav ul {
+    padding: 0;
+    display: flex;
+    align-items: center;
+    list-style: none;
+}
+
+li a{
+    color: black;
+    font-size: 16px;
+    padding: 0px 7.36px ;
+    text-decoration: none;
+}
+
+.hero img{
+    width: 100%;
+}
+
+.grid{
+    display: grid;
+    grid-template-columns: repeat(4,25%);
+    border-top: 1px solid #040404;
+    margin-top: 20px;
+    padding: 16px;
+}
+
+.square{
+    padding: 5px;
+}
+  
+.wide{
+   grid-column: auto / span 2;
+    padding: 0 10px;
+}
+
+.block{
+    display: flex;
+    flex-direction: column;
+    border-bottom: 1px solid;
+    margin: 17.43px 0;
+    padding: 20px 0;
+}
+.icono-circular{
+    font-size: 13px;
+}
+
+.autor{
+    padding: 5px 0;
+    font-size: 10px;
+    text-align: justify;
+
+}
+
+.icono-dialogo{
+    width: 9px;
+    height: 10px;
+}
+
+
+.horizontal{
+    display: flex;
+}
+
+.horizontal .block-right img {
+    width: 100%;
+}
+
+.block {
+    flex: 1;
+    border-bottom: none;
+    /* border-left: 1px solid #CCC; */
+    padding: 0 20px;
+}
+/* 
+.block-left{
+    flex: 5;
+} */
+.last-block{
+    display: flex;
+    align-items: flex-start;
+    padding: 0 20px;
+}
+
+.block-right{
+    flex: 9;
+ }
+
+.venezuela{
+    width: 100px;  
+}
+
+.image-guerra {
+    width: 100%;
+} 
+
+.photo{
+    width: 100%;
+}
+
+.left2{
+    display: flex;
+    flex-direction: column;
+    padding: 10px;
+}
+
+.photoJugador{
+    width: 100%;
+}
+
+.photo-periodico{
+    width: 100px;
+}
+
+.futbol-femenino{
+    width: 100%;
+}
+
+.text-imag{
+    padding-right: 24px;
+}
+
+.full{
+    grid-column: auto / span 4;
+    background-color: #F6F6F6;
+    padding: 16px;
+    column-gap: 8px;
+    display: flex;
+   flex-direction: row;
+   border-bottom: 1px solid #040404;
+ }
+
+ .full-son{
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+    margin: 16px 0;
+ }
+
+ .wider{
+    grid-column: auto / span 3;
+    border-right: 1px solid;
+ }
+
+ .photo-factura{
+    display: block;
+    width: 30%;
+ 
+ }
+
+ .photo-basquet{
+    width: 100%;
+ }
+
+ .photo-umut{
+    width: 100%;
+ }
+
+ .photo-tribunales{
+    width: 100%;
+ }
+
+.photo-taller{
+    width: 100%;
+ }
+.publicidad{
+    width: 100%;
+ }
+ .photo-futbol{
+
+    width: 80%;
+ }
+
+ .full-3{
+    display: flex;
+    flex-direction: row;
+ }
+
+ .photo-atardecer{
+    width: 100%;
+ }
+
+ .photo-rubiales{
+    width: 100%;
+ }
+
+ .container-footer{
+    display: flex;
+    flex-direction: column;
+    border-top: 1px solid #040404;
+ }
+
+ .title{
+    font-size: 15px;
+    text-align: center;
+    border-bottom: 1px solid #040404;
+    height: 24px;
+    padding: 14px 0 5px 0;
+ }
+
+ .block-footer{
+    display: flex;
+    justify-content: space-around;
+    gap:1rem;
+    margin-top: 40px;
+ } 
+
+ .column-list ul{
+    padding-top: 5px;
+    font-size: 13px;
+    color: #3F6C99;
+ }
+
+ h5{
+    font-size: 13px;
+ }
+
+ .footer-center{
+    display: flex;
+    text-align: center;
+    justify-content: space-around;
+    align-items: center;
+    gap:1rem;
+    padding: 40px 0;
+ }
+
+ .logo-reverso{
+    width: 100px;
+ }
+
+ .photo-logo{
+    width: 50px;
+ }
+
+ .logo-elMundo{
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+ }
+
+.logoMundo{  
+    width: 80px;
+ }
+ .redes-sociales{
+    justify-content: end;
+ }
+ .photo-redes{
+    width: 100px;
+ }
+
+ .footer-terminos li{
+    display: inline;
+    list-style: none;
+    font-size: 13px;
+    color: #3F6C99;
+    padding: 0 20px 20px 0;
+
+ }
+
+ .premium {
+    margin-top: 20px;
+ }
+
+ @media(max-width:740px){
+    body{background-color: yellow;}
+    .grid{grid-template-columns: 1fr;}
+    .container{max-width: 500px;}
+    .horizontal{flex-direction: column;}
+    .sub-nav{display: none;}
+    nav ul{ display: none;}
+    .full {
+        grid-column: auto / span 1;
+    }
+    .wide{grid-column: auto / span 1};
+    .wider{grid-column: auto /span 1}
+    .block-footer{display: none;}
+    .footer-center{flex-direction: column;}
+    .logo-elMundo {
+        order: -1;
+    }
+    .logo-reverso{
+        order: 1;
+    }
+    .footer-terminos{
+        text-align: center;
+    }
+    .logo{
+        width: 150px;}
+    .date{
+        white-space: nowrap;
+    }
+    .icono-nav *{display: none}
+ }
+
+
+
+
