@@ -1,3 +1,7 @@
+body {
+    font-family: "Prata", "Times New Roman", serif;
+}
+
 *{
     margin: 0;
     padding: 0;
@@ -10,7 +14,7 @@ p{
 
 h3{
     font-size: 22px;
-    line-height: 1.5rem;
+    
 }
 h4{
     font-size: 17px;
@@ -21,7 +25,6 @@ header {
 }
 .block h2{
     font-size: 26px;
-  
 }
 
 .sub-nav {
@@ -124,6 +127,19 @@ li a{
     padding: 16px;
 }
 
+.block{
+    display: flex;
+    flex-direction: column;
+    border-bottom: 1px solid #040404;
+    margin-bottom: 10px;
+    padding-bottom: 10px;
+    row-gap: 10px;
+}
+
+.block:last-child {
+    border: none;
+}
+
 .square{
     padding: 5px;
 }
@@ -133,13 +149,6 @@ li a{
     padding: 0 10px;
 }
 
-.block{
-    display: flex;
-    flex-direction: column;
-    border-bottom: 1px solid;
-    margin: 17.43px 0;
-    padding: 20px 0;
-}
 .icono-circular{
     font-size: 13px;
 }
@@ -159,26 +168,31 @@ li a{
 
 .horizontal{
     display: flex;
+    align-items: flex-start;
+    gap: 20px;
 }
 
 .horizontal .block-right img {
     width: 100%;
 }
 
-.block {
-    flex: 1;
-    border-bottom: none;
-    /* border-left: 1px solid #CCC; */
-    padding: 0 20px;
+.horizontal-3{
+    display: flex;
+    justify-content: space-around;
 }
-/* 
-.block-left{
-    flex: 5;
-} */
+
+.horizontal-3 .block {
+    flex: 1;
+    border: none;
+}
+
 .last-block{
     display: flex;
     align-items: flex-start;
-    padding: 0 20px;
+}
+
+.block-left {
+    flex: 5;
 }
 
 .block-right{
@@ -214,6 +228,9 @@ li a{
 .futbol-femenino{
     width: 100%;
 }
+.photo-playa{
+    width: 100px;
+}
 
 .text-imag{
     padding-right: 24px;
@@ -226,6 +243,7 @@ li a{
     column-gap: 8px;
     display: flex;
    flex-direction: row;
+   justify-content: space-around;
    border-bottom: 1px solid #040404;
  }
 
@@ -256,7 +274,7 @@ li a{
  }
 
  .photo-tribunales{
-    width: 100%;
+    width: 100px;
  }
 
 .photo-taller{
@@ -366,7 +384,11 @@ li a{
     .container{max-width: 500px;}
     .horizontal{flex-direction: column;}
     .sub-nav{display: none;}
-    nav ul{ display: none;}
+    nav ul{ 
+        display: none;
+       
+
+    }
     .full {
         grid-column: auto / span 1;
     }

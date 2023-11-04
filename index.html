@@ -5,6 +5,12 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>El Mundo</title>
     <link rel="stylesheet" href="./style.css" />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Prata&display=swap"
+      rel="stylesheet"
+    />
   </head>
 
   <body>
@@ -277,10 +283,10 @@
 
         <div class="square-right">
           <div class="block">
-            <h3>
+            <h4>
               Iglesia. Los obispos aplicarán las recomendaciones del Defensor
               sobre abusos pero piden no poner el "foco" solo en la Iglesia
-            </h3>
+            </h4>
             <p class="autor">
               MIGUEL TRIVIÑO, Madrid
               <img
@@ -293,10 +299,10 @@
           </div>
 
           <div class="block">
-            <h3>
+            <h4>
               Política. El alcalde de PSOE de un pueblo gallego que se niega a
               acoger a 40 inmigrantes: "no es lo mejor para mis vecinos"
-            </h3>
+            </h4>
             <p class="autor">
               NATALIA PUGA , Santiago de Compostela
               <img
@@ -309,10 +315,10 @@
           </div>
 
           <div class="block">
-            <h3>
+            <h4>
               Venezuela. El chavismo anula las primarias opositoras y dinamita
               el acuerdo de Barbados
-            </h3>
+            </h4>
             <p class="autor">
               DANIEL LOZANO
               <img
@@ -330,10 +336,10 @@
               alt="photo"
               class="futbol-femenino"
             />
-            <h2>
+            <h4>
               Fútbol. Aitana Bonmatí se consagra con el Balón de Oro y Messi
               suma su octavo trofeo
-            </h2>
+            </h4>
             <p class="autor">
               INMMA LIDÓN
               <img
@@ -377,7 +383,6 @@
             </p>
             <p class="autor">PROYECTO DE NATURGY</p>
           </div>
-
           <img src="/imgs/imag4.webp" alt="photo" class="photo-factura" />
         </div>
       </div>
@@ -400,6 +405,7 @@
               11
             </p>
           </div>
+
           <div class="block-right">
             <img src="/imgs/imag6.webp" alt="photo" class="photo-playa" />
           </div>
@@ -407,11 +413,11 @@
 
         <div class="square">
           <img src="/imgs/imag7.webp" alt="photo" class="photo-basquet" />
-          <h3>
+          <h4>
             Euroliga. El peor Madrid sobrevive en la agonía para volver a vencer
             al Barça
-          </h3>
-          <p>
+          </h4>
+          <p class="autor">
             LUCAS SÁEZ-BRAVO , Madrid
             <img
               src="/imgs/cuadrado-de-dialogo.png"
@@ -442,20 +448,22 @@
             </p>
           </div>
 
-          <div class="block">
-            <h3>
-              Tribunales.Querella ante el Supremo contra Asens y Pisarello por
-              "planear" la quiebra del parque temáticoOpen Camp
-            </h3>
-            <p class="autor">
-              ÁNGELA MARTIALAYA , Madrid
-              <img
-                src="/imgs/cuadrado-de-dialogo.png"
-                alt="icono-dialogo"
-                class="icono-dialogo"
-              />
-              11
-            </p>
+          <div class="horizontal">
+            <div>
+              <h4>
+                Tribunales.Querella ante el Supremo contra Asens y Pisarello por
+                "planear" la quiebra del parque temáticoOpen Camp
+              </h4>
+              <p class="autor">
+                ÁNGELA MARTIALAYA , Madrid
+                <img
+                  src="/imgs/cuadrado-de-dialogo.png"
+                  alt="icono-dialogo"
+                  class="icono-dialogo"
+                />
+                11
+              </p>
+            </div>
             <img
               src="/imgs/imag11.webp"
               alt="photo-periodico"
@@ -466,10 +474,10 @@
 
         <div class="square-right">
           <div class="block">
-            <h3>
+            <h4>
               R.Unido. Detenido el diputado conservador Crispin Blunt por
               violación y posesión de drogas
-            </h3>
+            </h4>
             <p class="autor">
               CARLOS FRESNEDA, Londres
               <img
@@ -482,10 +490,10 @@
           </div>
 
           <div class="block">
-            <h3>
+            <h4>
               Monarquía. El PNV se suma al boicot independentista y no irá a la
               jura de la Princesa Leonor, a diferencia de la del Príncipe Felipe
-            </h3>
+            </h4>
             <p class="autor">
               EL MUNDO, Madrid
               <img
@@ -498,10 +506,10 @@
           </div>
 
           <div class="block">
-            <h3>
+            <h4>
               Resultados. Amazon gana 19.801 millones hasta septiembre,
               consolidando su recuperación tras el mal ejercicio anterior
-            </h3>
+            </h4>
             <p class="autor">
               EFE,Nueva York
               <img
@@ -515,9 +523,9 @@
 
           <div class="last-block2">
             <img src="/imgs/imag9.webp" alt="photo" class="photo-taller" />
-            <h2>
+            <h4>
               Kit Digital. La herramienta definitiva para crear tu tienda online
-            </h2>
+            </h4>
           </div>
         </div>
 
@@ -527,26 +535,84 @@
       </section>
 
       <section class="grid">
-        <div class="wider horizontal">
-          <div class="block-left">
-            <p>DEPORTES ></p>
-            <h3>
-              Entrevista. Joan Capdevila: "Tuve un rifirrafe con Beckham y, al
-              ir a insultarle, me puse tan nervioso que le grité: Beautiful!
-              Beautiful!Flipó"
-            </h3>
-            <p class="autor">
-              IÑAKO DÍAZ - GUERRA
-              <img
-                src="/imgs/cuadrado-de-dialogo.png"
-                alt="icono-dialogo"
-                class="icono-dialogo"
-              />
-              18
-            </p>
+        <div class="wider">
+          <div class="horizontal">
+            <div class="block-left">
+              <p>DEPORTES ></p>
+              <h3>
+                Entrevista. Joan Capdevila: "Tuve un rifirrafe con Beckham y, al
+                ir a insultarle, me puse tan nervioso que le grité: Beautiful!
+                Beautiful!Flipó"
+              </h3>
+              <p class="autor">
+                IÑAKO DÍAZ - GUERRA
+                <img
+                  src="/imgs/cuadrado-de-dialogo.png"
+                  alt="icono-dialogo"
+                  class="icono-dialogo"
+                />
+                18
+              </p>
+            </div>
+            <div class="block-right">
+              <img src="/imgs/futbol.gif" alt="photo" class="photo-futbol" />
+            </div>
           </div>
-          <div class="block-right">
-            <img src="/imgs/futbol.gif" alt="photo" class="photo-futbol" />
+
+          <div class="horizontal horizontal-3">
+            <div class="block-left">
+              <div class="">
+                <p>EL TIEMPO ></p>
+                <h4>
+                  Previsión. Una ciclogénesis explosiva marcará el día de Todos
+                  los Santos
+                </h4>
+                <p class="autor">
+                  EUROPA PRESS , Madrid
+                  <img
+                    src="/imgs/cuadrado-de-dialogo.png"
+                    alt="icono-dialogo"
+                    class="icono-dialogo"
+                  />
+                  13
+                </p>
+              </div>
+            </div>
+
+            <div class="block-right horizontal horizontal-3">
+              <div class="block">
+                <img src="/imgs/puleva.webp" alt="photo" class="photo-puleva" />
+                <h4>
+                  El líder lácteo en España acelera su compromiso con la
+                  sostenibilidad
+                </h4>
+                <p class="autor">OFRECIDO POR PULEVA</p>
+              </div>
+
+              <div class="block">
+                <img
+                  src="/imgs/princesa.jpg"
+                  alt="photo"
+                  class="photo-princesa"
+                />
+                <h4>
+                  Quién es el novio de la princesa Leonor? Todos los detalles
+                  TELVA
+                </h4>
+              </div>
+
+              <div class="block">
+                <img
+                  src="/imgs/manchesterCity.jpg"
+                  alt="photo"
+                  class="photo-manchester"
+                />
+                <h4>
+                  Guardiola y Haaland, en el punto de mira de un ex del
+                  Manchester United: "Fue puro teatro" MARCA
+                </h4>
+              </div>
+            </div>
           </div>
         </div>
 
@@ -554,61 +620,7 @@
           <img rel="publicidad" src="/imgs/imag10.gif" class="publicidad" />
         </div>
 
-        <div class="wider horizontal">
-          <div class="block-left">
-            <div class="">
-              <p>EL TIEMPO ></p>
-              <h3>
-                Previsión. Una ciclogénesis explosiva marcará el día de Todos
-                los Santos
-              </h3>
-              <p class="autor">
-                EUROPA PRESS , Madrid
-                <img
-                  src="/imgs/cuadrado-de-dialogo.png"
-                  alt="icono-dialogo"
-                  class="icono-dialogo"
-                />
-                13
-              </p>
-            </div>
-          </div>
-
-          <div class="block-right horizontal horizontal-3">
-            <div class="block">
-              <img src="/imgs/puleva.webp" alt="photo" class="photo-puleva" />
-              <h3>
-                El líder lácteo en España acelera su compromiso con la
-                sostenibilidad
-              </h3>
-              <p class="autor">OFRECIDO POR PULEVA</p>
-            </div>
-
-            <div class="block">
-              <img
-                src="/imgs/princesa.jpg"
-                alt="photo"
-                class="photo-princesa"
-              />
-              <h3>
-                Quién es el novio de la princesa Leonor? Todos los detalles
-                TELVA
-              </h3>
-            </div>
-
-            <div class="block">
-              <img
-                src="/imgs/manchesterCity.jpg"
-                alt="photo"
-                class="photo-manchester"
-              />
-              <h3>
-                Guardiola y Haaland, en el punto de mira de un ex del Manchester
-                United: "Fue puro teatro" MARCA
-              </h3>
-            </div>
-          </div>
-        </div>
+        <div class="wider horizontal"></div>
       </section>
 
       <section class="grid">
@@ -630,20 +642,20 @@
               />
               2
             </p>
-            <p>
+            <!-- <p>
               El turbio negocio de las enfermedades mentales. Así se disparó el
               consumo de psicofármacos en EEUU
-            </p>
+            </p> -->
           </div>
         </div>
 
         <div class="square-right">
           <div class="block">
-            <h3>
+            <h4>
               Cataluña. Ordenan readmitir e indemnizar con 25.300 euros a la
               empleada de una cafetería que fue despedida por orinarse en
               utensilios de cocina
-            </h3>
+            </h4>
             <p class="autor">
               GERMÁN GONZÁLEZ , Barcelona
               <img
@@ -661,10 +673,10 @@
               alt="photo"
               class="photo-atardecer"
             />
-            <h2>
+            <h4>
               UrbanaMente. Así cambia la temperatura según el lugar en el que
               vives
-            </h2>
+            </h4>
             <p class="autor">PROYECTO DE ACCIONA</p>
           </div>
         </div>
@@ -676,10 +688,10 @@
               rel="rubiales"
               class="photo-rubiales"
             />
-            <h3>
+            <h4>
               Fútbol. Una directiva de la RFEF acusa ante la juez a Rubiales de
               ocultarle el ctrato de la Supercopa con Arabia Saudí
-            </h3>
+            </h4>
             <p class="autor">
               ESTEBAN URREIZTIETA, Madrid
               <img
@@ -692,10 +704,10 @@
           </div>
 
           <div class="block">
-            <h3>
+            <h4>
               Tribunales. La Audiencia de Barcelona avala investigar al Barça en
               el 'caso Negreira' por "respeto al juego limpio"
-            </h3>
+            </h4>
             <p class="autor">
               GERMÁN GONZÁLEZ, Barcelona
               <img
