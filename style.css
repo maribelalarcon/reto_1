@@ -21,7 +21,6 @@ h4{
 }
 h1:hover,h2:hover ,h3:hover ,h4:hover{
 	opacity: 0.6;
-
 }
 .text-blue{
 	color:#2e6d9d;
@@ -89,7 +88,6 @@ header {
 	padding-left: 10px;
 	margin-left: 10px;
 }
-
 .papel-premium{
 	width: 87px;
 	margin-right: 10px;
@@ -108,7 +106,6 @@ nav {
 	border-top: 1px solid #CCC;
 	border-bottom: 1px solid #CCC;
 }
-
 nav ul {
 	padding: 0;
 	display: flex;
@@ -118,7 +115,6 @@ nav ul {
 .menu > li {
 	position: relative;
 }
-
 label{
 	margin:  0 40px 0 0;
 	font-size: 13px;
@@ -197,12 +193,14 @@ li a{
 
 .window-submenu ul {
 	flex-direction: column;
+	gap: 10px;
 }
-
+.window-submenu li{
+	font-size: 13px;
+}
 .hero img{
 	width: 100%;
 }
-
 .grid{
 	display: grid;
 	grid-template-columns: repeat(4,25%);
@@ -287,39 +285,21 @@ li a{
 	width: 100px;  
 }
 
-.image-guerra {
+.width-photo{
 	width: 100%;
-} 
 
-.photo{
-	width: 100%;
 }
-
 .left2{
 	display: flex;
 	flex-direction: column;
 	padding: 10px;
 }
-
-.photoJugador{
-	width: 100%;
-}
-
 .photo-periodico{
 	width: 100px;
 }
-
-.futbol-femenino{
-	width: 100%;
-}
-.photo-playa{
-	width: 100px;
-}
-
 .text-imag{
 	padding-right: 24px;
 }
-
 .full{
 	grid-column: auto / span 4;
 	background-color: #F6F6F6;
@@ -328,6 +308,7 @@ li a{
 	display: flex;
 	flex-direction: row;
 	justify-content: space-around;
+	align-items: flex-start;
 	border-bottom: 1px solid #040404;
 }
 
@@ -346,27 +327,11 @@ li a{
 .photo-factura{
 	display: block;
 	width: 30%;
-	
 }
-
-.photo-basquet{
-	width: 100%;
-}
-
-.photo-umut{
-	width: 100%;
-}
-
 .photo-tribunales{
 	width: 100px;
 }
 
-.photo-taller{
-	width: 100%;
-}
-.publicidad{
-	width: 100%;
-}
 .photo-futbol{
 	width: 80%;
 }
@@ -374,14 +339,6 @@ li a{
 .full-3{
 	display: flex;
 	flex-direction: row;
-}
-
-.photo-atardecer{
-	width: 100%;
-}
-
-.photo-rubiales{
-	width: 100%;
 }
 
 .container-footer{
@@ -541,8 +498,10 @@ h5{
 		.date{
 			white-space: nowrap;
 		}
-		.icono-nav *{display: none}
-	}
+		.icono-nav *{
+			display: none
+		}
+	
 	
 	
 	
